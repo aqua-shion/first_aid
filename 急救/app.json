@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/search/search",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/publish/publish",
+    "pages/mypost/mypost",
+    "pages/admin/admin",
+    "pages/comment/comment",
+    "pages/collect/collect"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "急救小知识",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#515151",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "icon/zhuye1.png",
+        "selectedIconPath": "icon/zhuye2.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "icon/sousuo1.png",
+        "selectedIconPath": "icon/sousuo2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "icon/wode1.png",
+        "selectedIconPath": "icon/wode2.png"
+      }    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,42 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40rpx 0;
+  box-sizing: border-box;
+  background-color: rgb(173, 49, 245);
+} 
+
+.t{
+  width: 80%;
+  margin: 40rpx 10%;
+  /* padding-left: 40rxp; */
+  border: 2rpx solid rgb(173, 49, 245);
+  height: 80rpx;
+  line-height:80rpx;
+  font-size: 35rpx;
+  text-align: center;
+  border-radius: 20rpx;
+}

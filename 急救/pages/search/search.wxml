@@ -1,0 +1,34 @@
+<view class="ser">
+  <image src="/icon/sousuo1.png" class="pic">
+
+  </image>
+  <input class="in" placeholder="请输入" bindinput="in" />
+  <view class="btn" bindtap="sear">
+    搜索
+  </view>
+</view>
+
+
+<view class="list1">
+  <block wx:for="{{itemlist}}">
+    <view class="{{selected == index?'selected':''}}" bindtap="change" data-ind="{{index}}">
+      {{item}}
+    </view>
+  </block>
+</view>
+
+<block wx:for="{{paperlist}}">
+  <view class="paper" bindtap="godetail" data-ind="{{index}}">
+    <view class="title">
+      {{item.title}}
+    </view>
+    <view class="at">
+      <view>
+        {{item.author}}
+      </view>
+      <view>
+        {{item.time}}
+      </view>
+    </view>
+  </view>
+</block>

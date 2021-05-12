@@ -1,0 +1,21 @@
+<!--pages/home/home.wxml-->
+
+
+
+<block wx:for="{{collect}}">
+  <view class="paper" >
+    <view class="title">
+      {{item.title}}
+      <view bindtap="collect" class=" iconfont {{isCollect?'icon-collection-fill' : 'icon-collection'}}"></view>
+    </view>
+   
+    <view class="at">
+      <view>
+        {{item.author}}
+      </view>
+      <view>
+        {{item.time}}
+      </view>
+    </view>
+  </view>
+</block>

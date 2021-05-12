@@ -1,0 +1,33 @@
+<!--pages/home/home.wxml-->
+<view class="t">
+  <swiper duration="500" interval="2000" circular="{{true}}" autoplay="{{true}}" indicator-dots="{{true}}">
+    <block wx:for="{{piclist}}">
+      <swiper-item>
+        <image src="{{item}}" mode="aspectFill"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="list1">
+  <block wx:for="{{itemlist}}">
+    <view class="{{selected == index?'selected':''}}" bindtap="change" data-ind="{{index}}">
+      {{item}}
+    </view>
+  </block>
+</view>
+
+<block wx:for="{{paperlist}}">
+  <view class="paper" bindtap="godetail" data-ind="{{index}}">
+    <view class="title">
+      {{item.title}}
+    </view>
+    <view class="at">
+      <view>
+        {{item.author}}
+      </view>
+      <view>
+        {{item.time}}
+      </view>
+    </view>
+  </view>
+</block>

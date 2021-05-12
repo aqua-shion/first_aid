@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登陆 </button> -->
+    <button wx:if="{{!hasUserInfo &&canIUseGetUserProfile}}" bindtap="getUserProfile" class="btn"> 微信授权登录 </button>
+
+    <block wx:else>
+      <image bindtap="login" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <button bindtap="tuichu" >退出登录</button>
+    </block>
+  </view>
+</view>
+<view  bindtap="goAdmin" class="t">
+  管理员登录
+</view>
+<view wx:if="{{hasUserInfo}}" bindtap="gopost" class="t">
+  我发布的资讯
+</view>
+<view wx:if="{{hasUserInfo}}" bindtap="gopublish" class="t">
+  我要发布资讯
+</view>
+<view wx:if="{{hasUserInfo}}" bindtap="goCollect" class="t">
+  收藏管理
+</view>
+<view wx:if="{{superRoot}}" bindtap="goComment" class="t">
+  评论管理
+</view>
+<view  bindtap="call" class="t">
+  拨打急救电话
+</view>

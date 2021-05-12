@@ -1,0 +1,44 @@
+/* pages/publish/publish.wxss */
+
+.pic{
+  width: 90%;
+  margin: 30rpx 5%;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  border: 1px solid rgb(173, 58, 158);
+
+}
+
+/* .pic view{
+width: 100%;
+height: 100%;
+} */
+
+.t{
+  width: 90%;
+  margin: 30rpx 5%;
+  height: 50rpx;
+  line-height:50rpx;
+  border-bottom: 1px solid rgb(173, 58, 158);
+
+}
+
+.c{
+  width: 90%;
+  margin: 30rpx 5%;
+  border: 1px solid rgb(173, 58, 158);
+  border-radius: 20rpx;
+}
+
+.btn{
+  width: 60%;
+  margin: 20rpx 20%;
+  background-color: rgb(173, 58, 158);
+  color: white;
+  border-radius: 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}

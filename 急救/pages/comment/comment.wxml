@@ -1,0 +1,19 @@
+<view class="divLine2"></view>
+<view class="divLine3">全部评论({{commentLength}})</view>
+
+<!-- 评论区 -->
+<view class="divLine1" ></view>
+  <view class="wrap" wx:for="{{talking_comment}}">
+<view  class="detail_user" >
+<image class="user_avatar" src="{{item.avatarUrl}}"></image>
+<view class="user_wrap">
+<view class="user_name">{{item.nickName}}</view>
+<view class="user_time">{{item.comment_time}}</view>
+</view>
+</view>
+<view style="white-space:pre-line" class="user_comment">
+  {{item.comment}}
+  <button wx:if="{{superRoot}}" type="warn" data-id="{{item._id}} "bindtap="delete">删除</button>
+</view>
+</view>
+

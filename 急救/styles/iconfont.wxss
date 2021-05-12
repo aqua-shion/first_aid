@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2339428 */
+  src: url('//at.alicdn.com/t/font_2339428_jnnj4ob7i9.woff2?t=1619766776954') format('woff2'),
+       url('//at.alicdn.com/t/font_2339428_jnnj4ob7i9.woff?t=1619766776954') format('woff'),
+       url('//at.alicdn.com/t/font_2339428_jnnj4ob7i9.ttf?t=1619766776954') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dibudaohanglan-1:before {
+  content: "\e632";
+}
+
+.icon-zhaopin:before {
+  content: "\e627";
+}
+
+.icon-xuexiao:before {
+  content: "\e825";
+}
+.icon-position:before {
+  content: "\e7f1";
+}
+
+.icon-share:before {
+  content: "\e61e";
+}
+
+.icon-dianzan:before {
+  content: "\e602";
+}
+.icon-dianzan2:before {
+  content: "\e602";
+  color: pink;
+}
+
+.icon-cai:before {
+  content: "\e659";
+}
+.icon-cai2:before {
+  content: "\e659";
+  color: pink;
+}
+
+.icon-yidiandiantubiao13:before {
+  content: "\e610";
+}
+
+.icon-write:before {
+  content: "\e621";
+}
+
+.icon-paixu:before {
+  content: "\e60d";
+}
+
+.icon-paixu1:before {
+  content: "\e64e";
+}
+
+.icon-pay:before {
+  content: "\e631";
+}
+
+.icon-receipt-address:before {
+  content: "\e673";
+}
+
+.icon-fuzhi:before {
+  content: "\e634";
+}
+
+.icon-tuikuan:before {
+  content: "\e6b1";
+}
+
+.icon-dibudaohanglan-:before {
+  content: "\e630";
+}
+
+.icon-icon_device_fenxiang:before {
+  content: "\e617";
+}
+
+.icon-collection:before {
+  content: "\e814";
+}
+
+.icon-fenlei:before {
+  content: "\e60a";
+}
+
+.icon-heart-fill:before {
+  content: "\e7d1";
+}
+
+.icon-collection-fill:before {
+  content: "\e7d2";
+}
+
+.icon-wind-cry:before {
+  content: "\e7f8";
+}
+
+.icon-wind-smile:before {
+  content: "\e7f9";
+}
+
+.icon-picture:before {
+  content: "\e811";
+}
+
+.icon-like:before {
+  content: "\e813";
+}
+
+.icon-home:before {
+  content: "\e88b";
+}
+
+.icon-diagnose:before {
+  content: "\e88e";
+}
+
+.icon-loading:before {
+  content: "\e891";
+}
+
+.icon-mine:before {
+  content: "\e620";
+}
+
+.icon-gouwuche:before {
+  content: "\e8e1";
+}

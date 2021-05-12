@@ -1,0 +1,33 @@
+/* pages/mypost/mypost.wxss */
+.all{
+  margin: 40rpx 5%;
+  border:1px solid rgb(173, 58, 158);
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+
+.t{
+  font-size: 50rpx;
+}
+
+.b{
+  display: flex;
+  justify-content: space-between;
+}
+
+.time{
+  color: rgb(153, 150, 150);
+}
+
+.c{
+  background-color: whitesmoke;
+  width: 200rpx;
+  border-radius: 10rpx;
+  text-align: center;
+}
+
+.no{
+  font-size: 60rpx;
+  text-align: center;
+  margin: 100rpx;
+}

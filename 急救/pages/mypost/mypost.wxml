@@ -1,0 +1,20 @@
+<!--pages/mypost/mypost.wxml-->
+<view wx:if="{{paperlist.length == 0}}" class="no">
+  你没有发布资讯哦
+</view>
+
+<block wx:if="{{paperlist.length > 0}}" wx:for="{{paperlist}}">
+  <view class="all">
+    <view class="t" bindtap="godetail" data-index="{{index}}">
+      {{item.title}}
+    </view>
+    <view class="b">
+      <view class="time">
+        {{item.time}}
+      </view>
+      <view class="c" bindtap="delete" data-ind="{{item._id}}">
+        删除
+      </view>
+    </view>
+  </view>
+</block>
